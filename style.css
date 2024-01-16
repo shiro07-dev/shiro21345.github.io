@@ -1,0 +1,60 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #ff7357;
+    width: 100%;
+    height: 10vh; 
+}
+
+.ulnavbar{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linavbar{
+    list-style-type: none;
+    padding: 15px;
+    margin: 10px;
+    color: black;
+    font-size: 30px;
+}
+.linavbar:hover{
+    background-color: gray;
+    transition: .2s ease-in-out;
+    border-radius: 8px;
+}
+.anavbar{
+    color: black;
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 80vh;
+}
+.teks{
+    padding: 100px;
+    height: 50px;
+    color: #ff7357; 
+    font-size: 50px;
+ 
+}
+
+.footer{
+    background-color: #ff7357;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    font-size: 40px; 
+}
