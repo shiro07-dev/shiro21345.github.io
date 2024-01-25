@@ -39,13 +39,22 @@ html{
     align-items: center;
     background-color: black;
     height: 80vh;
+    text-decoration: none;
 }
 .teks{
     padding: 100px;
     height: 50px;
     color: #ff7357; 
     font-size: 50px;
- 
+
+}
+
+.link{
+    color: #ff7357;
+    text-decoration: none;
+}
+.link:hover{
+    color: gray;
 }
 
 .footer{
